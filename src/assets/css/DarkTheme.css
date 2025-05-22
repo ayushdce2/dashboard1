@@ -1,0 +1,43 @@
+.dark-mode .rightUserDetails{
+    background-color: #787878;
+}
+.dark-mode .rightViewAttendanceRow3 a{
+    background-color: #750000;
+    color: #787878;
+}
+.dark-mode .rightUserThemeSelector div:nth-child(1){
+ background-color: unset;
+}
+.dark-mode .rightUserThemeSelector div:nth-child(2){
+       background-color: #787878;
+}
+.dark-mode .presentEmployeesRow2 p:nth-child(2), .dark-mode .absentEmployeesRow2 p:nth-child(2){
+    color: #787878;
+}
+.dark-mode .presentEmployeesRow2 p:nth-child(1), .dark-mode .absentEmployeesRow2 p:nth-child(1){
+    color: #787878;
+}
+.dark-mode .absentEmployees {
+    background-color: #7b0000;
+}
+.dark-mode .rightcalendar{
+    background-color: #787878;
+}
+.dark-mode .RightMaininside{
+    background-color: #787878;
+}
+.dark-mode .rightcalendarRow2 {
+    background-color: #787878;
+}
+.dark-mode .rcAttendance {
+    background-color: #4bb24b;
+}
+.dark-mode .rcupcoming {
+    background-color: #684c4c;
+}
+.dark-mode .leftMenuText{
+    color: #c1c1c1;
+}
+.dark-mode .hrmsMain {
+    background-color: #39396a;
+}
