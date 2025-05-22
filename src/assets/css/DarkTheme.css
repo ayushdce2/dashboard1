@@ -41,3 +41,10 @@
 .dark-mode .hrmsMain {
     background-color: #39396a;
 }
+.dark-mode .rcHolidaysListItems > div:nth-child(2){
+    color: #981d1d;
+}
+.dark-mode .MuiDayCalendar-header.css-1rl1vrc-MuiDayCalendar-header > span{
+    color: #981d1d;
+
+}

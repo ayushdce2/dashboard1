@@ -75,8 +75,8 @@
         font-size: 1.4rem;
 }
 .MuiDayCalendar-header.css-1rl1vrc-MuiDayCalendar-header > span{
-    color: red;
-    font-weight: bold;
+    color: red ;
+    font-weight: bold ;
     /* text-shadow: 1px 0px red; */
 }
 .rcHolidays{
@@ -84,10 +84,10 @@
         font-size: 1.4rem;
 }
 .MuiDayCalendar-root.css-q5we01-MuiDayCalendar-root .css-1pv2de5-MuiDayCalendar-weekContainer{
-    justify-content: space-between!important;
+    justify-content:  space-between!important ;
 }
 .MuiDayCalendar-root.css-q5we01-MuiDayCalendar-root .css-1rl1vrc-MuiDayCalendar-header{
-    justify-content: space-between!important;
+    justify-content:  space-between!important;
 }
 .rcHolidaysList{
     margin-top: 1rem;
