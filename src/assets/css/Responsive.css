@@ -1,0 +1,92 @@
+@media only screen and (max-width: 767px) {
+    .leftMainWrap{
+        position: absolute;
+        height: 100%;
+        background-color: #6b6bce;
+        width: 60%;
+        margin-left: 100%;
+        transition: margin 0.4s linear;
+        z-index: 1;
+    }
+    .hrmsMain{
+        grid-template-columns: 1fr;
+        position: relative;
+        overflow-x: hidden;
+        /* height: 100%; */
+    }
+    .RightMaininside{
+        grid-template-columns: 1fr;
+        height: 100%;
+    }    
+    .rightUserinsights{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .rightUserWelcomeWrap{
+        flex-direction: column;
+        align-items: start;
+    }
+    .rightUserDetails{
+        padding: 0.5rem;
+    }
+    .rightUserAnnouncementRow1{
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+    }
+    .rightViewAttendance {
+        flex-basis: 100%;
+    }
+    .presentEmployees{
+        flex-basis: 100%;
+        height: 15rem;
+    }
+    .absentEmployees{
+        flex-basis: 100%;
+        height: 15rem;
+    }
+    .rightUserAnnouncement{
+        padding: 1rem;
+    }
+    .rightUserThemeToggler{
+    order: -1;
+    width: 100%;
+}
+    .rightcalendarRow2{
+        margin-top: 2rem;
+        padding: 1rem 0.2rem;
+        width: 95%;
+        
+    }
+    .rightcalendar{
+        height: 100%;
+    }
+    .rcupcoming{
+        padding: 0.5rem 0.6rem;
+    } 
+    .mobileMenu{
+    display: block;
+}
+.leftLogoinside {
+    width: 12rem;
+}
+.hrmsMain:has(.openMobileMenu){
+    overflow: hidden;
+}
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+
+    .hrmsMain{
+        grid-template-columns: 30vw 1fr;
+        overflow: auto;
+    }
+    .RightMaininside {
+    grid-template-columns: 1fr;
+}
+.rightUserinsights{
+    flex-wrap: wrap;
+}
+
+}

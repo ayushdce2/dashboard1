@@ -1,0 +1,103 @@
+.rightcalendar{
+    background-color: #f7f7f78f;
+    padding: 1.5rem 0px;
+    height: 99%;
+    border-radius: 2rem;
+}
+/* .rcRow1Userinside{
+    
+} */
+.rightcalendarRow1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.rcRow1Userinside{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    padding-right: 0.6rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.rcRow1UserImg{
+    border: 1px solid black;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+.rcRow1UserImg img{
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
+.rcRow1UserDetails p:nth-child(1){
+    font-weight: bold;
+}
+.rcRow1UserDetails p:nth-child(2){
+    font-size: 0.8rem;
+}
+.rightcalendarRow2{
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+    padding: 1.8rem 1rem;
+}
+.rcAttendance{
+    padding: 0.5rem 1rem;
+    background-color: rgb(112, 232, 112);
+    color: green;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+.rcupcoming{
+    padding: 0.5rem 1.6rem;
+    background-color: #ffb9b9;
+    color: red;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        border-radius: 2rem;
+        text-decoration: none;
+}
+.rcMainWrap{
+    display: flex;
+    gap: 1rem;
+        justify-content: center;
+}
+#«r0»-grid-label{
+    font-weight: bold;
+        font-size: 1.4rem;
+}
+.MuiDayCalendar-header.css-1rl1vrc-MuiDayCalendar-header > span{
+    color: red;
+    font-weight: bold;
+    /* text-shadow: 1px 0px red; */
+}
+.rcHolidays{
+        font-weight: bold;
+        font-size: 1.4rem;
+}
+.MuiDayCalendar-root.css-q5we01-MuiDayCalendar-root .css-1pv2de5-MuiDayCalendar-weekContainer{
+    justify-content: space-between!important;
+}
+.MuiDayCalendar-root.css-q5we01-MuiDayCalendar-root .css-1rl1vrc-MuiDayCalendar-header{
+    justify-content: space-between!important;
+}
+.rcHolidaysList{
+    margin-top: 1rem;
+
+}
+.rcHolidaysListItems{
+    display: flex;
+gap:4rem;
+margin-top: 0.8rem;
+}
+.rcHolidaysListItems > div:nth-child(2){
+    color: red;
+    font-weight: bold;
+}
